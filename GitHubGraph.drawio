@@ -1,0 +1,1361 @@
+<mxfile host="app.diagrams.net" pages="6">
+  <diagram name="Разработчик" id="pg_developer">
+    <mxGraphModel dx="1377" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="torvalds" vertex="1">
+          <mxGeometry height="180" width="200" x="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d1-r0" parent="d1" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_разработчика = 1" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d1-r1" parent="d1" style="text;fontSize=12;align=left;spacingLeft=8;" value="логин = torvalds" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d1-r2" parent="d1" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Финляндия" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d1-r3" parent="d1" style="text;fontSize=12;align=left;spacingLeft=8;" value="подписчики = 220 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="d1-r4" parent="d1" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_регистрации = 2011" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d1-r5" parent="d1" style="text;fontSize=12;align=left;spacingLeft=8;" value="про_аккаунт = 1" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="gvanrossum" vertex="1">
+          <mxGeometry height="180" width="200" x="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d2-r0" parent="d2" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_разработчика = 2" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2-r1" parent="d2" style="text;fontSize=12;align=left;spacingLeft=8;" value="логин = gvanrossum" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d2-r2" parent="d2" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = США" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d2-r3" parent="d2" style="text;fontSize=12;align=left;spacingLeft=8;" value="подписчики = 8 900" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="d2-r4" parent="d2" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_регистрации = 2012" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d2-r5" parent="d2" style="text;fontSize=12;align=left;spacingLeft=8;" value="про_аккаунт = 1" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="dhh" vertex="1">
+          <mxGeometry height="180" width="200" x="580" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3-r0" parent="d3" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_разработчика = 3" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d3-r1" parent="d3" style="text;fontSize=12;align=left;spacingLeft=8;" value="логин = dhh" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d3-r2" parent="d3" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Дания" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d3-r3" parent="d3" style="text;fontSize=12;align=left;spacingLeft=8;" value="подписчики = 20 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="d3-r4" parent="d3" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_регистрации = 2008" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d3-r5" parent="d3" style="text;fontSize=12;align=left;spacingLeft=8;" value="про_аккаунт = 1" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="mojombo" vertex="1">
+          <mxGeometry height="180" width="200" x="840" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d4-r0" parent="d4" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_разработчика = 4" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d4-r1" parent="d4" style="text;fontSize=12;align=left;spacingLeft=8;" value="логин = mojombo" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d4-r2" parent="d4" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = США" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d4-r3" parent="d4" style="text;fontSize=12;align=left;spacingLeft=8;" value="подписчики = 12 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="d4-r4" parent="d4" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_регистрации = 2007" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d4-r5" parent="d4" style="text;fontSize=12;align=left;spacingLeft=8;" value="про_аккаунт = 1" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="d5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="defunkt" vertex="1">
+          <mxGeometry height="180" width="200" x="60" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="d5-r0" parent="d5" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_разработчика = 5" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d5-r1" parent="d5" style="text;fontSize=12;align=left;spacingLeft=8;" value="логин = defunkt" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d5-r2" parent="d5" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = США" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d5-r3" parent="d5" style="text;fontSize=12;align=left;spacingLeft=8;" value="подписчики = 18 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="d5-r4" parent="d5" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_регистрации = 2007" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d5-r5" parent="d5" style="text;fontSize=12;align=left;spacingLeft=8;" value="про_аккаунт = 1" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="d6" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="pjhyett" vertex="1">
+          <mxGeometry height="180" width="200" x="320" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-r0" parent="d6" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_разработчика = 6" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-r1" parent="d6" style="text;fontSize=12;align=left;spacingLeft=8;" value="логин = pjhyett" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-r2" parent="d6" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = США" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-r3" parent="d6" style="text;fontSize=12;align=left;spacingLeft=8;" value="подписчики = 4 500" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-r4" parent="d6" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_регистрации = 2007" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-r5" parent="d6" style="text;fontSize=12;align=left;spacingLeft=8;" value="про_аккаунт = 0" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="d7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="antirez" vertex="1">
+          <mxGeometry height="180" width="200" x="580" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="d7-r0" parent="d7" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_разработчика = 7" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d7-r1" parent="d7" style="text;fontSize=12;align=left;spacingLeft=8;" value="логин = antirez" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d7-r2" parent="d7" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Италия" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d7-r3" parent="d7" style="text;fontSize=12;align=left;spacingLeft=8;" value="подписчики = 16 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="d7-r4" parent="d7" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_регистрации = 2009" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d7-r5" parent="d7" style="text;fontSize=12;align=left;spacingLeft=8;" value="про_аккаунт = 1" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="d8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="fabpot" vertex="1">
+          <mxGeometry height="180" width="200" x="840" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="d8-r0" parent="d8" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_разработчика = 8" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8-r1" parent="d8" style="text;fontSize=12;align=left;spacingLeft=8;" value="логин = fabpot" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d8-r2" parent="d8" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Франция" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d8-r3" parent="d8" style="text;fontSize=12;align=left;spacingLeft=8;" value="подписчики = 9 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="d8-r4" parent="d8" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_регистрации = 2010" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d8-r5" parent="d8" style="text;fontSize=12;align=left;spacingLeft=8;" value="про_аккаунт = 1" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="d9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="taylorotwell" vertex="1">
+          <mxGeometry height="180" width="200" x="60" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="d9-r0" parent="d9" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_разработчика = 9" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d9-r1" parent="d9" style="text;fontSize=12;align=left;spacingLeft=8;" value="логин = taylorotwell" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d9-r2" parent="d9" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = США" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d9-r3" parent="d9" style="text;fontSize=12;align=left;spacingLeft=8;" value="подписчики = 30 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="d9-r4" parent="d9" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_регистрации = 2011" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d9-r5" parent="d9" style="text;fontSize=12;align=left;spacingLeft=8;" value="про_аккаунт = 1" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="d10" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="nicowillis" vertex="1">
+          <mxGeometry height="180" width="200" x="320" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="d10-r0" parent="d10" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_разработчика = 10" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d10-r1" parent="d10" style="text;fontSize=12;align=left;spacingLeft=8;" value="логин = nicowillis" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d10-r2" parent="d10" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Германия" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d10-r3" parent="d10" style="text;fontSize=12;align=left;spacingLeft=8;" value="подписчики = 1 200" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="d10-r4" parent="d10" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_регистрации = 2015" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d10-r5" parent="d10" style="text;fontSize=12;align=left;spacingLeft=8;" value="про_аккаунт = 0" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="d11" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="evanlucas" vertex="1">
+          <mxGeometry height="180" width="200" x="580" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="d11-r0" parent="d11" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_разработчика = 11" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d11-r1" parent="d11" style="text;fontSize=12;align=left;spacingLeft=8;" value="логин = evanlucas" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d11-r2" parent="d11" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = США" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d11-r3" parent="d11" style="text;fontSize=12;align=left;spacingLeft=8;" value="подписчики = 2 300" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="d11-r4" parent="d11" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_регистрации = 2013" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d11-r5" parent="d11" style="text;fontSize=12;align=left;spacingLeft=8;" value="про_аккаунт = 0" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="d12" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="sindresorhus" vertex="1">
+          <mxGeometry height="180" width="200" x="840" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="d12-r0" parent="d12" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_разработчика = 12" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d12-r1" parent="d12" style="text;fontSize=12;align=left;spacingLeft=8;" value="логин = sindresorhus" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d12-r2" parent="d12" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Норвегия" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d12-r3" parent="d12" style="text;fontSize=12;align=left;spacingLeft=8;" value="подписчики = 70 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="d12-r4" parent="d12" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_регистрации = 2012" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d12-r5" parent="d12" style="text;fontSize=12;align=left;spacingLeft=8;" value="про_аккаунт = 1" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="dleg" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=13;startSize=30;" value="Легенда:" vertex="1">
+          <mxGeometry height="205" width="540" x="60" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="dleg-r0" parent="dleg" style="text;fontSize=12;align=left;spacingLeft=8;" value="🔵 про_аккаунт = 1 (платная подписка Pro)" vertex="1">
+          <mxGeometry height="25" width="340" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dleg-r1" parent="dleg" style="text;fontSize=12;align=left;spacingLeft=8;" value="🟡 про_аккаунт = 0 (бесплатный аккаунт)" vertex="1">
+          <mxGeometry height="25" width="340" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="dleg-r2" parent="dleg" style="text;fontSize=12;align=left;spacingLeft=8;" value="🟠 связь «Вносит вклад»: разработчик → репозиторий (лист «Вносит вклад»)" vertex="1">
+          <mxGeometry height="25" width="340" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dleg-r3" parent="dleg" style="text;fontSize=12;align=left;spacingLeft=8;" value="🟣 связь «Владеет»: владелец → репозиторий (лист «Владеет»)" vertex="1">
+          <mxGeometry height="25" width="340" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="dleg-r4" parent="dleg" style="text;fontSize=12;align=left;spacingLeft=8;" value="🌸 связь «Принадлежит»: разработчик → организация (лист «Принадлежит организации»)" vertex="1">
+          <mxGeometry height="25" width="340" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ksh3aTn4YofqEUpFGzXR-1" edge="1" parent="dleg" source="dleg-r1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="dleg-r1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Репозиторий" id="pg_repository">
+    <mxGraphModel dx="1377" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r1" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="linux" vertex="1">
+          <mxGeometry height="180" width="200" x="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-r0" parent="r1" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_репозитория = 1" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-r1" parent="r1" style="text;fontSize=12;align=left;spacingLeft=8;" value="язык = C" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-r2" parent="r1" style="text;fontSize=12;align=left;spacingLeft=8;" value="звёзды = 190 000" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-r3" parent="r1" style="text;fontSize=12;align=left;spacingLeft=8;" value="форки = 55 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-r4" parent="r1" style="text;fontSize=12;align=left;spacingLeft=8;" value="приватный = 0" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-r5" parent="r1" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_создания = 2005" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="cpython" vertex="1">
+          <mxGeometry height="180" width="200" x="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-r0" parent="r2" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_репозитория = 2" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-r1" parent="r2" style="text;fontSize=12;align=left;spacingLeft=8;" value="язык = Python" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-r2" parent="r2" style="text;fontSize=12;align=left;spacingLeft=8;" value="звёзды = 63 000" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-r3" parent="r2" style="text;fontSize=12;align=left;spacingLeft=8;" value="форки = 30 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-r4" parent="r2" style="text;fontSize=12;align=left;spacingLeft=8;" value="приватный = 0" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-r5" parent="r2" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_создания = 2008" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="rails" vertex="1">
+          <mxGeometry height="180" width="200" x="580" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-r0" parent="r3" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_репозитория = 3" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-r1" parent="r3" style="text;fontSize=12;align=left;spacingLeft=8;" value="язык = Ruby" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-r2" parent="r3" style="text;fontSize=12;align=left;spacingLeft=8;" value="звёзды = 56 000" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-r3" parent="r3" style="text;fontSize=12;align=left;spacingLeft=8;" value="форки = 21 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-r4" parent="r3" style="text;fontSize=12;align=left;spacingLeft=8;" value="приватный = 0" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-r5" parent="r3" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_создания = 2008" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="redis" vertex="1">
+          <mxGeometry height="180" width="200" x="840" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-r0" parent="r4" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_репозитория = 4" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-r1" parent="r4" style="text;fontSize=12;align=left;spacingLeft=8;" value="язык = C" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-r2" parent="r4" style="text;fontSize=12;align=left;spacingLeft=8;" value="звёзды = 67 000" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-r3" parent="r4" style="text;fontSize=12;align=left;spacingLeft=8;" value="форки = 24 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-r4" parent="r4" style="text;fontSize=12;align=left;spacingLeft=8;" value="приватный = 0" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-r5" parent="r4" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_создания = 2009" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="r5" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="symfony" vertex="1">
+          <mxGeometry height="180" width="200" x="60" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-r0" parent="r5" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_репозитория = 5" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-r1" parent="r5" style="text;fontSize=12;align=left;spacingLeft=8;" value="язык = PHP" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-r2" parent="r5" style="text;fontSize=12;align=left;spacingLeft=8;" value="звёзды = 29 000" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-r3" parent="r5" style="text;fontSize=12;align=left;spacingLeft=8;" value="форки = 10 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-r4" parent="r5" style="text;fontSize=12;align=left;spacingLeft=8;" value="приватный = 0" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-r5" parent="r5" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_создания = 2010" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="r6" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="laravel" vertex="1">
+          <mxGeometry height="180" width="200" x="320" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-r0" parent="r6" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_репозитория = 6" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-r1" parent="r6" style="text;fontSize=12;align=left;spacingLeft=8;" value="язык = PHP" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-r2" parent="r6" style="text;fontSize=12;align=left;spacingLeft=8;" value="звёзды = 78 000" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-r3" parent="r6" style="text;fontSize=12;align=left;spacingLeft=8;" value="форки = 24 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-r4" parent="r6" style="text;fontSize=12;align=left;spacingLeft=8;" value="приватный = 0" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-r5" parent="r6" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_создания = 2011" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="r7" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;startSize=30;" value="github-site" vertex="1">
+          <mxGeometry height="180" width="200" x="580" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-r0" parent="r7" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_репозитория = 7" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-r1" parent="r7" style="text;fontSize=12;align=left;spacingLeft=8;" value="язык = HTML" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-r2" parent="r7" style="text;fontSize=12;align=left;spacingLeft=8;" value="звёзды = 500" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-r3" parent="r7" style="text;fontSize=12;align=left;spacingLeft=8;" value="форки = 120" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-r4" parent="r7" style="text;fontSize=12;align=left;spacingLeft=8;" value="приватный = 1" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-r5" parent="r7" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_создания = 2012" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="r8" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="awesome" vertex="1">
+          <mxGeometry height="180" width="200" x="840" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-r0" parent="r8" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_репозитория = 8" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-r1" parent="r8" style="text;fontSize=12;align=left;spacingLeft=8;" value="язык = Markdown" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-r2" parent="r8" style="text;fontSize=12;align=left;spacingLeft=8;" value="звёзды = 320 000" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-r3" parent="r8" style="text;fontSize=12;align=left;spacingLeft=8;" value="форки = 28 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-r4" parent="r8" style="text;fontSize=12;align=left;spacingLeft=8;" value="приватный = 0" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-r5" parent="r8" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_создания = 2014" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="r9" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="node" vertex="1">
+          <mxGeometry height="180" width="200" x="60" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="r9-r0" parent="r9" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_репозитория = 9" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9-r1" parent="r9" style="text;fontSize=12;align=left;spacingLeft=8;" value="язык = JavaScript" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r9-r2" parent="r9" style="text;fontSize=12;align=left;spacingLeft=8;" value="звёзды = 108 000" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r9-r3" parent="r9" style="text;fontSize=12;align=left;spacingLeft=8;" value="форки = 29 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="r9-r4" parent="r9" style="text;fontSize=12;align=left;spacingLeft=8;" value="приватный = 0" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r9-r5" parent="r9" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_создания = 2010" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="r10" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="vscode" vertex="1">
+          <mxGeometry height="180" width="200" x="320" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="r10-r0" parent="r10" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_репозитория = 10" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r10-r1" parent="r10" style="text;fontSize=12;align=left;spacingLeft=8;" value="язык = TypeScript" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r10-r2" parent="r10" style="text;fontSize=12;align=left;spacingLeft=8;" value="звёзды = 165 000" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r10-r3" parent="r10" style="text;fontSize=12;align=left;spacingLeft=8;" value="форки = 29 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="r10-r4" parent="r10" style="text;fontSize=12;align=left;spacingLeft=8;" value="приватный = 0" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r10-r5" parent="r10" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_создания = 2015" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="r11" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="homebrew" vertex="1">
+          <mxGeometry height="180" width="200" x="580" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="r11-r0" parent="r11" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_репозитория = 11" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r11-r1" parent="r11" style="text;fontSize=12;align=left;spacingLeft=8;" value="язык = Ruby" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r11-r2" parent="r11" style="text;fontSize=12;align=left;spacingLeft=8;" value="звёзды = 40 000" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r11-r3" parent="r11" style="text;fontSize=12;align=left;spacingLeft=8;" value="форки = 9 000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="r11-r4" parent="r11" style="text;fontSize=12;align=left;spacingLeft=8;" value="приватный = 0" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r11-r5" parent="r11" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_создания = 2009" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="r12" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="sindresorhus-misc" vertex="1">
+          <mxGeometry height="180" width="200" x="840" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="r12-r0" parent="r12" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_репозитория = 12" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r12-r1" parent="r12" style="text;fontSize=12;align=left;spacingLeft=8;" value="язык = JavaScript" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r12-r2" parent="r12" style="text;fontSize=12;align=left;spacingLeft=8;" value="звёзды = 2 000" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r12-r3" parent="r12" style="text;fontSize=12;align=left;spacingLeft=8;" value="форки = 200" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="r12-r4" parent="r12" style="text;fontSize=12;align=left;spacingLeft=8;" value="приватный = 0" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r12-r5" parent="r12" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_создания = 2016" vertex="1">
+          <mxGeometry height="25" width="200" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="rleg" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=13;startSize=30;" value="Легенда:" vertex="1">
+          <mxGeometry height="205" width="420" x="60" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="rleg-r0" parent="rleg" style="text;fontSize=12;align=left;spacingLeft=8;" value="🟢 приватный = 0: публичный репозиторий" vertex="1">
+          <mxGeometry height="25" width="340" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rleg-r1" parent="rleg" style="text;fontSize=12;align=left;spacingLeft=8;" value="🔴 приватный = 1: закрытый репозиторий" vertex="1">
+          <mxGeometry height="25" width="340" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="rleg-r2" parent="rleg" style="text;fontSize=12;align=left;spacingLeft=8;" value="🟠 «Вносит вклад» — вклад разработчика в репозиторий" vertex="1">
+          <mxGeometry height="25" width="340" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rleg-r3" parent="rleg" style="text;fontSize=12;align=left;spacingLeft=8;" value="🟣 «Владеет» — личный или организационный владелец репозитория" vertex="1">
+          <mxGeometry height="25" width="340" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="rleg-r4" parent="rleg" style="text;fontSize=12;align=left;spacingLeft=8;" value="🌸 «Принадлежит» — членство разработчика в организации" vertex="1">
+          <mxGeometry height="25" width="340" y="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Организация" id="pg_organization">
+    <mxGraphModel dx="1471" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o1" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="microsoft" vertex="1">
+          <mxGeometry height="155" width="200" x="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o1-r0" parent="o1" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_организации = 1" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o1-r1" parent="o1" style="text;fontSize=12;align=left;spacingLeft=8;" value="отрасль = информационные технологии" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o1-r2" parent="o1" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = США" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o1-r3" parent="o1" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 1975" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="o1-r4" parent="o1" style="text;fontSize=12;align=left;spacingLeft=8;" value="число_участников = 90 000" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="o2" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="google" vertex="1">
+          <mxGeometry height="155" width="200" x="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o2-r0" parent="o2" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_организации = 2" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2-r1" parent="o2" style="text;fontSize=12;align=left;spacingLeft=8;" value="отрасль = информационные технологии" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o2-r2" parent="o2" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = США" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o2-r3" parent="o2" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 1998" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="o2-r4" parent="o2" style="text;fontSize=12;align=left;spacingLeft=8;" value="число_участников = 180 000" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="o3" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="facebook" vertex="1">
+          <mxGeometry height="155" width="200" x="580" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o3-r0" parent="o3" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_организации = 3" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o3-r1" parent="o3" style="text;fontSize=12;align=left;spacingLeft=8;" value="отрасль = социальные сети" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o3-r2" parent="o3" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = США" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o3-r3" parent="o3" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 2004" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="o3-r4" parent="o3" style="text;fontSize=12;align=left;spacingLeft=8;" value="число_участников = 86 000" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="o4" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="github" vertex="1">
+          <mxGeometry height="155" width="200" x="840" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4-r0" parent="o4" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_организации = 4" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o4-r1" parent="o4" style="text;fontSize=12;align=left;spacingLeft=8;" value="отрасль = инструменты разработки" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o4-r2" parent="o4" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = США" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o4-r3" parent="o4" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 2008" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="o4-r4" parent="o4" style="text;fontSize=12;align=left;spacingLeft=8;" value="число_участников = 3 000" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="o5" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="symfony" vertex="1">
+          <mxGeometry height="155" width="200" x="60" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="o5-r0" parent="o5" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_организации = 5" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o5-r1" parent="o5" style="text;fontSize=12;align=left;spacingLeft=8;" value="отрасль = открытое ПО" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o5-r2" parent="o5" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Франция" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o5-r3" parent="o5" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 2005" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="o5-r4" parent="o5" style="text;fontSize=12;align=left;spacingLeft=8;" value="число_участников = 200" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="o6" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="laravel" vertex="1">
+          <mxGeometry height="155" width="200" x="320" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="o6-r0" parent="o6" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_организации = 6" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o6-r1" parent="o6" style="text;fontSize=12;align=left;spacingLeft=8;" value="отрасль = открытое ПО" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o6-r2" parent="o6" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = США" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o6-r3" parent="o6" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 2011" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="o6-r4" parent="o6" style="text;fontSize=12;align=left;spacingLeft=8;" value="число_участников = 50" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="o7" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="nodejs" vertex="1">
+          <mxGeometry height="155" width="200" x="580" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="o7-r0" parent="o7" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_организации = 7" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7-r1" parent="o7" style="text;fontSize=12;align=left;spacingLeft=8;" value="отрасль = открытое ПО" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o7-r2" parent="o7" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = США" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o7-r3" parent="o7" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 2009" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="o7-r4" parent="o7" style="text;fontSize=12;align=left;spacingLeft=8;" value="число_участников = 400" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="o8" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="linux-kernel" vertex="1">
+          <mxGeometry height="155" width="200" x="840" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="o8-r0" parent="o8" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_организации = 8" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o8-r1" parent="o8" style="text;fontSize=12;align=left;spacingLeft=8;" value="отрасль = открытое ПО" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o8-r2" parent="o8" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = международная" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o8-r3" parent="o8" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 1991" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="o8-r4" parent="o8" style="text;fontSize=12;align=left;spacingLeft=8;" value="число_участников = 4 000" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="o9" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="vercel" vertex="1">
+          <mxGeometry height="155" width="200" x="60" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="o9-r0" parent="o9" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_организации = 9" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o9-r1" parent="o9" style="text;fontSize=12;align=left;spacingLeft=8;" value="отрасль = облачные сервисы" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o9-r2" parent="o9" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = США" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o9-r3" parent="o9" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 2015" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="o9-r4" parent="o9" style="text;fontSize=12;align=left;spacingLeft=8;" value="число_участников = 700" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="o10" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="jetbrains" vertex="1">
+          <mxGeometry height="155" width="200" x="320" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="o10-r0" parent="o10" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_организации = 10" vertex="1">
+          <mxGeometry height="25" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o10-r1" parent="o10" style="text;fontSize=12;align=left;spacingLeft=8;" value="отрасль = инструменты разработки" vertex="1">
+          <mxGeometry height="25" width="200" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o10-r2" parent="o10" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Чехия" vertex="1">
+          <mxGeometry height="25" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o10-r3" parent="o10" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 2000" vertex="1">
+          <mxGeometry height="25" width="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="o10-r4" parent="o10" style="text;fontSize=12;align=left;spacingLeft=8;" value="число_участников = 1 500" vertex="1">
+          <mxGeometry height="25" width="200" y="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Вносит вклад" id="pg_contributes">
+    <mxGraphModel dx="1471" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cd0" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="torvalds" vertex="1">
+          <mxGeometry height="47" width="190" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cd0-r0" parent="cd0" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cr0" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="linux" vertex="1">
+          <mxGeometry height="47" width="190" x="500" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cr0-r0" parent="cr0" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ce0" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#FF6600;fontColor=#FF6600;" value="[Вносит вклад]&#xa;дата_вклада=2023-01-15&#xa;число_коммитов=850&#xa;добавлено_строк=42000&#xa;роль=сопровождающий" edge="1" source="cd0" target="cr0" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cd1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="gvanrossum" vertex="1">
+          <mxGeometry height="47" width="190" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cd1-r0" parent="cd1" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cr1" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="cpython" vertex="1">
+          <mxGeometry height="47" width="190" x="500" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cr1-r0" parent="cr1" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ce1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#FF6600;fontColor=#FF6600;" value="[Вносит вклад]&#xa;дата_вклада=2023-03-10&#xa;число_коммитов=620&#xa;добавлено_строк=18000&#xa;роль=автор" edge="1" source="cd1" target="cr1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cd2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="dhh" vertex="1">
+          <mxGeometry height="47" width="190" x="40" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="cd2-r0" parent="cd2" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cr2" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="rails" vertex="1">
+          <mxGeometry height="47" width="190" x="500" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="cr2-r0" parent="cr2" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ce2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#FF6600;fontColor=#FF6600;" value="[Вносит вклад]&#xa;дата_вклада=2023-02-20&#xa;число_коммитов=310&#xa;добавлено_строк=8500&#xa;роль=сопровождающий" edge="1" source="cd2" target="cr2" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cd3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="antirez" vertex="1">
+          <mxGeometry height="47" width="190" x="40" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="cd3-r0" parent="cd3" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cr3" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="redis" vertex="1">
+          <mxGeometry height="47" width="190" x="500" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="cr3-r0" parent="cr3" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ce3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#FF6600;fontColor=#FF6600;" value="[Вносит вклад]&#xa;дата_вклада=2023-04-05&#xa;число_коммитов=990&#xa;добавлено_строк=55000&#xa;роль=автор" edge="1" source="cd3" target="cr3" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cd4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="fabpot" vertex="1">
+          <mxGeometry height="47" width="190" x="40" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="cd4-r0" parent="cd4" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cr4" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="symfony" vertex="1">
+          <mxGeometry height="47" width="190" x="500" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="cr4-r0" parent="cr4" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ce4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#FF6600;fontColor=#FF6600;" value="[Вносит вклад]&#xa;дата_вклада=2023-01-28&#xa;число_коммитов=540&#xa;добавлено_строк=21000&#xa;роль=сопровождающий" edge="1" source="cd4" target="cr4" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cd5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="taylorotwell" vertex="1">
+          <mxGeometry height="47" width="190" x="40" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="cd5-r0" parent="cd5" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cr5" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="laravel" vertex="1">
+          <mxGeometry height="47" width="190" x="500" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="cr5-r0" parent="cr5" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ce5" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#FF6600;fontColor=#FF6600;" value="[Вносит вклад]&#xa;дата_вклада=2023-05-12&#xa;число_коммитов=760&#xa;добавлено_строк=33000&#xa;роль=автор" edge="1" source="cd5" target="cr5" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cd6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="sindresorhus" vertex="1">
+          <mxGeometry height="47" width="190" x="40" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="cd6-r0" parent="cd6" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cr6" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="awesome" vertex="1">
+          <mxGeometry height="47" width="190" x="500" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="cr6-r0" parent="cr6" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ce6" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#FF6600;fontColor=#FF6600;" value="[Вносит вклад]&#xa;дата_вклада=2023-06-01&#xa;число_коммитов=120&#xa;добавлено_строк=3200&#xa;роль=автор" edge="1" source="cd6" target="cr6" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cd7" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="evanlucas" vertex="1">
+          <mxGeometry height="47" width="190" x="40" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="cd7-r0" parent="cd7" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cr7" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="node" vertex="1">
+          <mxGeometry height="47" width="190" x="500" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="cr7-r0" parent="cr7" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ce7" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#FF6600;fontColor=#FF6600;" value="[Вносит вклад]&#xa;дата_вклада=2022-11-30&#xa;число_коммитов=230&#xa;добавлено_строк=7800&#xa;роль=рецензент" edge="1" source="cd7" target="cr7" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cd8" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="nicowillis" vertex="1">
+          <mxGeometry height="47" width="190" x="40" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="cd8-r0" parent="cd8" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cr8" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="vscode" vertex="1">
+          <mxGeometry height="47" width="190" x="500" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="cr8-r0" parent="cr8" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ce8" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#FF6600;fontColor=#FF6600;" value="[Вносит вклад]&#xa;дата_вклада=2023-07-22&#xa;число_коммитов=95&#xa;добавлено_строк=2100&#xa;роль=рецензент" edge="1" source="cd8" target="cr8" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cd9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="mojombo" vertex="1">
+          <mxGeometry height="47" width="190" x="40" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="cd9-r0" parent="cd9" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cr9" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="redis" vertex="1">
+          <mxGeometry height="47" width="190" x="500" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="cr9-r0" parent="cr9" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ce9" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#FF6600;fontColor=#FF6600;" value="[Вносит вклад]&#xa;дата_вклада=2023-02-14&#xa;число_коммитов=180&#xa;добавлено_строк=6500&#xa;роль=рецензент" edge="1" source="cd9" target="cr9" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cd10" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="defunkt" vertex="1">
+          <mxGeometry height="47" width="190" x="40" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="cd10-r0" parent="cd10" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cr10" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="rails" vertex="1">
+          <mxGeometry height="47" width="190" x="500" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="cr10-r0" parent="cr10" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ce10" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#FF6600;fontColor=#FF6600;" value="[Вносит вклад]&#xa;дата_вклада=2022-09-08&#xa;число_коммитов=270&#xa;добавлено_строк=11000&#xa;роль=рецензент" edge="1" source="cd10" target="cr10" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cd11" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="pjhyett" vertex="1">
+          <mxGeometry height="47" width="190" x="40" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="cd11-r0" parent="cd11" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cr11" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="node" vertex="1">
+          <mxGeometry height="47" width="190" x="500" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="cr11-r0" parent="cr11" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ce11" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#FF6600;fontColor=#FF6600;" value="[Вносит вклад]&#xa;дата_вклада=2023-03-19&#xa;число_коммитов=145&#xa;добавлено_строк=4300&#xa;роль=сопровождающий" edge="1" source="cd11" target="cr11" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Владеет" id="pg_owns">
+    <mxGraphModel dx="1471" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="od0" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="torvalds" vertex="1">
+          <mxGeometry height="47" width="180" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="od0-r0" parent="od0" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="or0" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="linux" vertex="1">
+          <mxGeometry height="47" width="180" x="450" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="or0-r0" parent="or0" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="oe0" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#9933FF;fontColor=#9933FF;" value="[Владеет]&#xa;владеет_с=2005-04-07&#xa;уровень_доступа=владелец" edge="1" source="od0" target="or0" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="od1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="gvanrossum" vertex="1">
+          <mxGeometry height="47" width="180" x="40" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="od1-r0" parent="od1" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="or1" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="cpython" vertex="1">
+          <mxGeometry height="47" width="180" x="450" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="or1-r0" parent="or1" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="oe1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#9933FF;fontColor=#9933FF;" value="[Владеет]&#xa;владеет_с=2008-01-05&#xa;уровень_доступа=владелец" edge="1" source="od1" target="or1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="od2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="antirez" vertex="1">
+          <mxGeometry height="47" width="180" x="40" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="od2-r0" parent="od2" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="or2" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="redis" vertex="1">
+          <mxGeometry height="47" width="180" x="450" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="or2-r0" parent="or2" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="oe2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#9933FF;fontColor=#9933FF;" value="[Владеет]&#xa;владеет_с=2009-03-22&#xa;уровень_доступа=владелец" edge="1" source="od2" target="or2" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="od3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="taylorotwell" vertex="1">
+          <mxGeometry height="47" width="180" x="40" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="od3-r0" parent="od3" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="or3" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="laravel" vertex="1">
+          <mxGeometry height="47" width="180" x="450" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="or3-r0" parent="or3" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="oe3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#9933FF;fontColor=#9933FF;" value="[Владеет]&#xa;владеет_с=2011-09-28&#xa;уровень_доступа=владелец" edge="1" source="od3" target="or3" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="od4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="sindresorhus" vertex="1">
+          <mxGeometry height="47" width="180" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="od4-r0" parent="od4" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="or4" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="awesome" vertex="1">
+          <mxGeometry height="47" width="180" x="450" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="or4-r0" parent="or4" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="oe4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#9933FF;fontColor=#9933FF;" value="[Владеет]&#xa;владеет_с=2014-07-11&#xa;уровень_доступа=владелец" edge="1" source="od4" target="or4" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="od5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="fabpot" vertex="1">
+          <mxGeometry height="47" width="180" x="40" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="od5-r0" parent="od5" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="or5" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="symfony" vertex="1">
+          <mxGeometry height="47" width="180" x="450" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="or5-r0" parent="or5" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="oe5" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#9933FF;fontColor=#9933FF;" value="[Владеет]&#xa;владеет_с=2010-06-01&#xa;уровень_доступа=владелец" edge="1" source="od5" target="or5" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="od6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="evanlucas" vertex="1">
+          <mxGeometry height="47" width="180" x="40" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="od6-r0" parent="od6" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="or6" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="node" vertex="1">
+          <mxGeometry height="47" width="180" x="450" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="or6-r0" parent="or6" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="oe6" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#9933FF;fontColor=#9933FF;" value="[Владеет]&#xa;владеет_с=2010-05-27&#xa;уровень_доступа=администратор" edge="1" source="od6" target="or6" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="od7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="mojombo" vertex="1">
+          <mxGeometry height="47" width="180" x="40" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="od7-r0" parent="od7" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="or7" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="homebrew" vertex="1">
+          <mxGeometry height="47" width="180" x="450" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="or7-r0" parent="or7" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="oe7" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#9933FF;fontColor=#9933FF;" value="[Владеет]&#xa;владеет_с=2009-05-01&#xa;уровень_доступа=администратор" edge="1" source="od7" target="or7" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo0" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="microsoft" vertex="1">
+          <mxGeometry height="47" width="200" x="900" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oo0-r0" parent="oo0" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="orr0" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="vscode" vertex="1">
+          <mxGeometry height="47" width="180" x="1360" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="orr0-r0" parent="orr0" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ooe0" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#9933FF;fontColor=#9933FF;" value="[Владеет]&#xa;владеет_с=2015-04-29&#xa;уровень_доступа=владелец" edge="1" source="oo0" target="orr0" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo1" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="nodejs" vertex="1">
+          <mxGeometry height="47" width="200" x="900" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="oo1-r0" parent="oo1" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="orr1" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="node" vertex="1">
+          <mxGeometry height="47" width="180" x="1360" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="orr1-r0" parent="orr1" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ooe1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#9933FF;fontColor=#9933FF;" value="[Владеет]&#xa;владеет_с=2015-01-01&#xa;уровень_доступа=владелец" edge="1" source="oo1" target="orr1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo2" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="linux-kernel" vertex="1">
+          <mxGeometry height="47" width="200" x="900" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="oo2-r0" parent="oo2" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="orr2" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="linux" vertex="1">
+          <mxGeometry height="47" width="180" x="1360" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="orr2-r0" parent="orr2" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ooe2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#9933FF;fontColor=#9933FF;" value="[Владеет]&#xa;владеет_с=2011-01-01&#xa;уровень_доступа=владелец" edge="1" source="oo2" target="orr2" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo3" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="symfony" vertex="1">
+          <mxGeometry height="47" width="200" x="900" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="oo3-r0" parent="oo3" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="orr3" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="symfony" vertex="1">
+          <mxGeometry height="47" width="180" x="1360" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="orr3-r0" parent="orr3" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ooe3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#9933FF;fontColor=#9933FF;" value="[Владеет]&#xa;владеет_с=2010-06-01&#xa;уровень_доступа=владелец" edge="1" source="oo3" target="orr3" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo4" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="laravel" vertex="1">
+          <mxGeometry height="47" width="200" x="900" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="oo4-r0" parent="oo4" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="orr4" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="laravel" vertex="1">
+          <mxGeometry height="47" width="180" x="1360" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="orr4-r0" parent="orr4" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ooe4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#9933FF;fontColor=#9933FF;" value="[Владеет]&#xa;владеет_с=2011-09-28&#xa;уровень_доступа=владелец" edge="1" source="oo4" target="orr4" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="github" vertex="1">
+          <mxGeometry height="47" width="200" x="900" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="oo5-r0" parent="oo5" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="orr5" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="github-site" vertex="1">
+          <mxGeometry height="47" width="180" x="1360" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="orr5-r0" parent="orr5" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: репозиторий" vertex="1">
+          <mxGeometry height="22" width="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ooe5" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#9933FF;fontColor=#9933FF;" value="[Владеет]&#xa;владеет_с=2012-01-01&#xa;уровень_доступа=владелец" edge="1" source="oo5" target="orr5" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="owndivD" parent="1" style="text;fontStyle=1;fontSize=14;align=center;fontColor=#9933FF;" value="Разработчик → репозиторий" vertex="1">
+          <mxGeometry x="40" y="20" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="owndivO" parent="1" style="text;fontStyle=1;fontSize=14;align=center;fontColor=#9933FF;" value="Организация → репозиторий" vertex="1">
+          <mxGeometry x="900" y="20" width="380" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Принадлежит организации" id="pg_belongsto">
+    <mxGraphModel dx="1607" dy="1025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="btd0" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="torvalds" vertex="1">
+          <mxGeometry height="47" width="185" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="btd0-r0" parent="btd0" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bto0" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="linux-kernel" vertex="1">
+          <mxGeometry height="47" width="185" x="480" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bto0-r0" parent="bto0" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bte0" edge="1" parent="1" source="btd0" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#CC0066;fontColor=#CC0066;" target="bto0" value="[Принадлежит]&#xa;дата_вступления=2011-01-01&#xa;роль=участник&#xa;публичное_членство=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btd1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="gvanrossum" vertex="1">
+          <mxGeometry height="47" width="185" x="40" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="btd1-r0" parent="btd1" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bto1" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="google" vertex="1">
+          <mxGeometry height="47" width="185" x="480" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="bto1-r0" parent="bto1" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bte1" edge="1" parent="1" source="btd1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#CC0066;fontColor=#CC0066;" target="bto1" value="[Принадлежит]&#xa;дата_вступления=2015-06-01&#xa;роль=участник&#xa;публичное_членство=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btd2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="mojombo" vertex="1">
+          <mxGeometry height="47" width="185" x="40" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="btd2-r0" parent="btd2" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bto2" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="github" vertex="1">
+          <mxGeometry height="47" width="185" x="480" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bto2-r0" parent="bto2" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bte2" edge="1" parent="1" source="btd2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#CC0066;fontColor=#CC0066;" target="bto2" value="[Принадлежит]&#xa;дата_вступления=2007-10-19&#xa;роль=владелец&#xa;публичное_членство=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btd3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="defunkt" vertex="1">
+          <mxGeometry height="47" width="185" x="40" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="btd3-r0" parent="btd3" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bto3" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="github" vertex="1">
+          <mxGeometry height="47" width="185" x="480" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="bto3-r0" parent="bto3" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bte3" edge="1" parent="1" source="btd3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#CC0066;fontColor=#CC0066;" target="bto3" value="[Принадлежит]&#xa;дата_вступления=2007-10-19&#xa;роль=владелец&#xa;публичное_членство=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btd4" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="pjhyett" vertex="1">
+          <mxGeometry height="47" width="185" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="btd4-r0" parent="btd4" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bto4" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="github" vertex="1">
+          <mxGeometry height="47" width="185" x="480" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="bto4-r0" parent="bto4" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bte4" edge="1" parent="1" source="btd4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#CC0066;fontColor=#CC0066;" target="bto4" value="[Принадлежит]&#xa;дата_вступления=2007-10-19&#xa;роль=администратор&#xa;публичное_членство=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btd5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="fabpot" vertex="1">
+          <mxGeometry height="47" width="185" x="40" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="btd5-r0" parent="btd5" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bto5" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="symfony" vertex="1">
+          <mxGeometry height="47" width="185" x="480" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="bto5-r0" parent="bto5" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bte5" edge="1" parent="1" source="btd5" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#CC0066;fontColor=#CC0066;" target="bto5" value="[Принадлежит]&#xa;дата_вступления=2010-06-01&#xa;роль=владелец&#xa;публичное_членство=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btd6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="taylorotwell" vertex="1">
+          <mxGeometry height="47" width="185" x="40" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="btd6-r0" parent="btd6" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bto6" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="laravel" vertex="1">
+          <mxGeometry height="47" width="185" x="480" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="bto6-r0" parent="bto6" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bte6" edge="1" parent="1" source="btd6" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#CC0066;fontColor=#CC0066;" target="bto6" value="[Принадлежит]&#xa;дата_вступления=2011-09-28&#xa;роль=владелец&#xa;публичное_членство=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btd7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="antirez" vertex="1">
+          <mxGeometry height="47" width="185" x="40" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="btd7-r0" parent="btd7" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bto7" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="linux-kernel" vertex="1">
+          <mxGeometry height="47" width="185" x="480" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="bto7-r0" parent="bto7" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bte7" edge="1" parent="1" source="btd7" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#CC0066;fontColor=#CC0066;" target="bto7" value="[Принадлежит]&#xa;дата_вступления=2009-03-22&#xa;роль=участник&#xa;публичное_членство=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btd8" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="evanlucas" vertex="1">
+          <mxGeometry height="47" width="185" x="40" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="btd8-r0" parent="btd8" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bto8" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="nodejs" vertex="1">
+          <mxGeometry height="47" width="185" x="480" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="bto8-r0" parent="bto8" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bte8" edge="1" parent="1" source="btd8" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#CC0066;fontColor=#CC0066;" target="bto8" value="[Принадлежит]&#xa;дата_вступления=2013-05-01&#xa;роль=участник&#xa;публичное_членство=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btd9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="sindresorhus" vertex="1">
+          <mxGeometry height="47" width="185" x="40" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="btd9-r0" parent="btd9" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bto9" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="vercel" vertex="1">
+          <mxGeometry height="47" width="185" x="480" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="bto9-r0" parent="bto9" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bte9" edge="1" parent="1" source="btd9" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#CC0066;fontColor=#CC0066;" target="bto9" value="[Принадлежит]&#xa;дата_вступления=2020-03-01&#xa;роль=участник&#xa;публичное_членство=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btd10" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="nicowillis" vertex="1">
+          <mxGeometry height="47" width="185" x="40" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="btd10-r0" parent="btd10" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bto10" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="microsoft" vertex="1">
+          <mxGeometry height="47" width="185" x="480" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="bto10-r0" parent="bto10" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bte10" edge="1" parent="1" source="btd10" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#CC0066;fontColor=#CC0066;dashed=1;" target="bto10" value="[Принадлежит]&#xa;дата_вступления=2018-01-01&#xa;роль=участник&#xa;публичное_членство=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btd11" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="dhh" vertex="1">
+          <mxGeometry height="47" width="185" x="40" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="btd11-r0" parent="btd11" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: разработчик" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bto11" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="laravel" vertex="1">
+          <mxGeometry height="47" width="185" x="480" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="bto11-r0" parent="bto11" style="text;fontSize=11;align=left;spacingLeft=8;" value="Узел: организация" vertex="1">
+          <mxGeometry height="22" width="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bte11" edge="1" parent="1" source="btd11" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#CC0066;fontColor=#CC0066;" target="bto11" value="[Принадлежит]&#xa;дата_вступления=2011-09-28&#xa;роль=владелец&#xa;публичное_членство=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btleg" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=13;startSize=30;" value="Легенда:" vertex="1">
+          <mxGeometry height="140" width="560" x="40" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="btleg-r0" parent="btleg" style="text;fontSize=12;align=left;spacingLeft=8;" value="—— сплошная линия: публичное_членство = 1 (членство видно в профиле)" vertex="1">
+          <mxGeometry height="25" width="380" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btleg-r1" parent="btleg" style="text;fontSize=12;align=left;spacingLeft=8;" value="- - - пунктир: публичное_членство = 0 (членство скрыто)" vertex="1">
+          <mxGeometry height="25" width="380" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="btleg-r2" parent="btleg" style="text;fontSize=12;align=left;spacingLeft=8;" value="🌸 тип связи «Принадлежит»; также на графе: «Вносит вклад», «Владеет» (см. другие листы)" vertex="1">
+          <mxGeometry height="25" width="380" y="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
