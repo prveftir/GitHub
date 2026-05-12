@@ -6,17 +6,13 @@
 -- ============================================================
 
 USE master;
-GO
 
 IF EXISTS (SELECT name FROM sys.databases WHERE name = 'GitHubGraph')
     DROP DATABASE GitHubGraph;
-GO
 
 CREATE DATABASE GitHubGraph;
-GO
 
 USE GitHubGraph;
-GO
 
 -- ============================================================
 -- 1. ТАБЛИЦЫ УЗЛОВ (NODE TABLES)
@@ -32,7 +28,6 @@ CREATE TABLE Developer (
     joined_year  INT,
     is_pro       BIT            DEFAULT 0
 ) AS NODE;
-GO
 
 -- Узел: Репозиторий
 CREATE TABLE Repository (
@@ -44,7 +39,6 @@ CREATE TABLE Repository (
     is_private   BIT            DEFAULT 0,
     created_year INT
 ) AS NODE;
-GO
 
 -- Узел: Организация
 CREATE TABLE Organization (
@@ -55,56 +49,47 @@ CREATE TABLE Organization (
     founded_year  INT,
     members_count INT            DEFAULT 0
 ) AS NODE;
-GO
 
 -- ============================================================
 -- 2. ТАБЛИЦЫ РЁБЕР (EDGE TABLES) с CONNECTION CONSTRAINT
 -- ============================================================
 
 -- Ребро: Contributes (Developer -> Repository)
--- Разработчик вносит вклад в репозиторий (однонаправленное)
 CREATE TABLE Contributes (
     contribution_date DATE,
     commits_count     INT          DEFAULT 0,
     lines_added       INT          DEFAULT 0,
-    role              NVARCHAR(50) -- 'author', 'reviewer', 'maintainer'
+    lines_deleted     INT          DEFAULT 0,
+    role              NVARCHAR(50)
 ) AS EDGE;
-GO
 
 ALTER TABLE Contributes
     ADD CONSTRAINT EC_Contributes
     CONNECTION (Developer TO Repository);
-GO
 
--- Ребро: Owns (Developer -> Repository  или  Organization -> Repository)
--- Владелец репозитория (однонаправленное)
+-- Ребро: Owns (Developer -> Repository или Organization -> Repository)
 CREATE TABLE Owns (
     owned_since  DATE,
-    access_level NVARCHAR(50) -- 'admin', 'owner'
+    access_level NVARCHAR(50)
 ) AS EDGE;
-GO
 
 ALTER TABLE Owns
     ADD CONSTRAINT EC_Owns
     CONNECTION (Developer TO Repository, Organization TO Repository);
-GO
 
 -- Ребро: BelongsTo (Developer -> Organization)
--- Разработчик входит в организацию (однонаправленное)
 CREATE TABLE BelongsTo (
     join_date DATE,
-    role      NVARCHAR(100), -- 'member', 'admin', 'owner'
+    role      NVARCHAR(100),
     is_public BIT DEFAULT 1
 ) AS EDGE;
-GO
 
 ALTER TABLE BelongsTo
     ADD CONSTRAINT EC_BelongsTo
     CONNECTION (Developer TO Organization);
-GO
 
 -- ============================================================
--- 3. НАПОЛНЕНИЕ УЗЛОВ (12+ СТРОК В КАЖДОЙ ТАБЛИЦЕ)
+-- 3. НАПОЛНЕНИЕ УЗЛОВ
 -- ============================================================
 
 -- Разработчики (12 строк)
@@ -122,7 +107,6 @@ VALUES
 (10, 'nicowillis',   'Nico Willis',         'Germany',         1200, 2015, 0),
 (11, 'evanlucas',    'Evan Lucas',          'USA',             2300, 2013, 0),
 (12, 'sindresorhus', 'Sindre Sorhus',       'Norway',         70000, 2012, 1);
-GO
 
 -- Репозитории (12 строк)
 INSERT INTO Repository (repo_id, repo_name, language, stars, forks, is_private, created_year)
@@ -139,7 +123,6 @@ VALUES
 (10, 'vscode',            'TypeScript',  165000, 29000, 0, 2015),
 (11, 'homebrew',          'Ruby',         40000,  9000, 0, 2009),
 (12, 'sindresorhus-misc', 'JavaScript',    2000,   200, 0, 2016);
-GO
 
 -- Организации (10 строк)
 INSERT INTO Organization (org_id, org_name, industry, country, founded_year, members_count)
@@ -154,7 +137,6 @@ VALUES
 (8,  'linux-kernel', 'Open Source',  'International',   1991,  4000),
 (9,  'vercel',       'Cloud',        'USA',             2015,   700),
 (10, 'jetbrains',    'DevTools',     'Czech Republic',  2000,  1500);
-GO
 
 -- ============================================================
 -- 4. НАПОЛНЕНИЕ РЁБЕР
@@ -182,7 +164,6 @@ FROM (VALUES
 ) AS t(dev_id, repo_id, contribution_date, commits_count, lines_added, role)
 JOIN Developer   d ON d.dev_id  = t.dev_id
 JOIN Repository  r ON r.repo_id = t.repo_id;
-GO
 
 -- Owns: Developer -> Repository
 INSERT INTO Owns ($from_id, $to_id, owned_since, access_level)
@@ -203,43 +184,40 @@ FROM (VALUES
 ) AS t(dev_id, repo_id, owned_since, access_level)
 JOIN Developer  d ON d.dev_id  = t.dev_id
 JOIN Repository r ON r.repo_id = t.repo_id;
-GO
 
 -- Owns: Organization -> Repository
 INSERT INTO Owns ($from_id, $to_id, owned_since, access_level)
 SELECT o.$node_id, r.$node_id, t.owned_since, t.access_level
 FROM (VALUES
-    (1, 10, '2015-04-29', 'owner'),  -- microsoft   -> vscode
-    (7,  9, '2015-01-01', 'owner'),  -- nodejs       -> node
-    (8,  1, '2011-01-01', 'owner'),  -- linux-kernel -> linux
-    (5,  5, '2010-06-01', 'owner'),  -- symfony      -> symfony
-    (6,  6, '2011-09-28', 'owner'),  -- laravel      -> laravel
-    (4,  7, '2012-01-01', 'owner')   -- github       -> github-site
+    (1, 10, '2015-04-29', 'owner'),
+    (7,  9, '2015-01-01', 'owner'),
+    (8,  1, '2011-01-01', 'owner'),
+    (5,  5, '2010-06-01', 'owner'),
+    (6,  6, '2011-09-28', 'owner'),
+    (4,  7, '2012-01-01', 'owner')
 ) AS t(org_id, repo_id, owned_since, access_level)
 JOIN Organization o ON o.org_id  = t.org_id
 JOIN Repository   r ON r.repo_id = t.repo_id;
-GO
 
 -- BelongsTo: Developer -> Organization
 INSERT INTO BelongsTo ($from_id, $to_id, join_date, role, is_public)
 SELECT d.$node_id, o.$node_id, t.join_date, t.role, t.is_public
 FROM (VALUES
-    (1,  8, '2011-01-01', 'member', 1),  -- torvalds     -> linux-kernel
-    (2,  2, '2015-06-01', 'member', 1),  -- gvanrossum   -> google
-    (3,  6, '2011-09-28', 'owner',  1),  -- dhh          -> laravel
-    (4,  4, '2007-10-19', 'owner',  1),  -- mojombo      -> github
-    (5,  4, '2007-10-19', 'owner',  1),  -- defunkt      -> github
-    (6,  4, '2007-10-19', 'admin',  1),  -- pjhyett      -> github
-    (7,  8, '2009-03-22', 'member', 1),  -- antirez      -> linux-kernel
-    (8,  5, '2010-06-01', 'owner',  1),  -- fabpot       -> symfony
-    (9,  6, '2011-09-28', 'owner',  1),  -- taylorotwell -> laravel
-    (10, 1, '2018-01-01', 'member', 0),  -- nicowillis   -> microsoft
-    (11, 7, '2013-05-01', 'member', 1),  -- evanlucas    -> nodejs
-    (12, 9, '2020-03-01', 'member', 1)   -- sindresorhus -> vercel
+    (1,  8, '2011-01-01', 'member', 1),
+    (2,  2, '2015-06-01', 'member', 1),
+    (3,  6, '2011-09-28', 'owner',  1),
+    (4,  4, '2007-10-19', 'owner',  1),
+    (5,  4, '2007-10-19', 'owner',  1),
+    (6,  4, '2007-10-19', 'admin',  1),
+    (7,  8, '2009-03-22', 'member', 1),
+    (8,  5, '2010-06-01', 'owner',  1),
+    (9,  6, '2011-09-28', 'owner',  1),
+    (10, 1, '2018-01-01', 'member', 0),
+    (11, 7, '2013-05-01', 'member', 1),
+    (12, 9, '2020-03-01', 'member', 1)
 ) AS t(dev_id, org_id, join_date, role, is_public)
 JOIN Developer    d ON d.dev_id = t.dev_id
 JOIN Organization o ON o.org_id = t.org_id;
-GO
 
 -- ============================================================
 -- 5. ЗАПРОСЫ С MATCH (5 запросов)
@@ -257,7 +235,6 @@ SELECT
 FROM Developer d, Contributes c, Repository r, Owns o
 WHERE MATCH(d-(c)->r AND d-(o)->r)
 ORDER BY c.commits_count DESC;
-GO
 
 -- Запрос 2: Цепочка Org -> Dev -> Repo:
 -- Найти репозитории, в которые контрибьютят члены организации
@@ -273,11 +250,9 @@ FROM Organization o, BelongsTo bt, Developer d, Contributes c, Repository r
 WHERE MATCH(o<-(bt)-d-(c)->r)
   AND r.stars > 50000
 ORDER BY r.stars DESC;
-GO
 
 -- Запрос 3: Цепочка Dev -> Org -> Repo:
 -- Разработчик входит в организацию, которая владеет репозиторием
--- (трёхузловая цепочка через принадлежность и владение)
 PRINT '=== Запрос 3: Dev -> Org -> Repo (через владение организации) ===';
 SELECT
     d.login         AS developer,
@@ -289,7 +264,6 @@ SELECT
 FROM Developer d, BelongsTo bt, Organization o, Owns ow, Repository r
 WHERE MATCH(d-(bt)->o-(ow)->r)
 ORDER BY o.org_name, r.stars DESC;
-GO
 
 -- Запрос 4: Внешние контрибьюторы —
 -- разработчики, вносящие вклад в репозитории организаций,
@@ -310,11 +284,9 @@ WHERE MATCH(d-(c)->r AND o-(ow)->r)
         AND bt2.$to_id   = o.$node_id
   )
 ORDER BY o.org_name, c.commits_count DESC;
-GO
 
 -- Запрос 5: Статистика по странам разработчиков —
 -- суммарные коммиты и звёзды по языкам программирования
--- Трёхузловая цепочка: Developer -> Contributes -> Repository
 PRINT '=== Запрос 5: Страна разработчика -> языки репозиториев (агрегация) ===';
 SELECT
     d.country                  AS developer_country,
@@ -327,48 +299,100 @@ FROM Developer d, Contributes c, Repository r
 WHERE MATCH(d-(c)->r)
 GROUP BY d.country, r.language
 ORDER BY total_commits DESC;
-GO
 
 -- ============================================================
--- 6. ЗАПРОСЫ С SHORTEST_PATH (2 запроса)
+-- 6. ДОПОЛНИТЕЛЬНЫЕ ЗАПРОСЫ
 -- ============================================================
 
--- Запрос 6: SHORTEST_PATH с шаблоном "+"
--- Найти кратчайший путь длиной 1 и более шагов:
--- от разработчика к другим разработчикам через общие репозитории
--- (Developer -[Contributes]-> Repository <-[Contributes]- Developer)
--- Показать имена всех промежуточных репозиториев и конечного разработчика
-SELECT
-    src.login                                            AS start_developer,
-    STRING_AGG(LAST_NODE(Repository).repo_name, ' -> ')
-        WITHIN GROUP (GRAPH PATH)                        AS repos_visited,
-    LAST_NODE(Developer).login                                 AS end_developer,
-    COUNT(c1) WITHIN GROUP (GRAPH PATH)                  AS hops
-FROM
-    Developer                  AS src,
-    SHORTEST_PATH(src(-(Contributes)->Repository-(Contributes)->Developer)+) AS p,
-    Developer                  AS dst,
-    Repository                 AS r,
-    Contributes                AS c1
-WHERE src.dev_id = 1
-ORDER BY hops, end_developer;
+-- Запрос 6: Разработчики, связанные через общие репозитории
+PRINT '=== Запрос 6: Разработчики через общие репозитории ===';
+SELECT DISTINCT
+    d1.login           AS developer_1,
+    d2.login           AS developer_2,
+    r.repo_name        AS common_repository,
+    c1.commits_count   AS commits_by_dev1,
+    c2.commits_count   AS commits_by_dev2
+FROM Developer d1, Contributes c1, Repository r, Contributes c2, Developer d2
+WHERE MATCH(d1-(c1)->r AND d2-(c2)->r)
+  AND d1.dev_id = 1
+  AND d2.dev_id != d1.dev_id
+ORDER BY r.repo_name, d2.login;
 
--- Запрос 7: SHORTEST_PATH с шаблоном {1,4}
--- Найти путь длиной от 1 до 4 шагов от организации к репозиторию
--- через цепочку: Organization <- BelongsTo - Developer -[Contributes]-> Repository
--- Показать всех промежуточных разработчиков и конечный репозиторий
-SELECT
-    o.org_name                                           AS start_org,
-    STRING_AGG(LAST_NODE(d_mid).login, ' -> ')
-        WITHIN GROUP (GRAPH PATH)                        AS developer_path,
-    LAST_NODE(r).repo_name                               AS end_repo,
-    COUNT(bt_mid) WITHIN GROUP (GRAPH PATH)              AS path_length
-FROM
-    Organization               AS o,
-    SHORTEST_PATH(o(-(BelongsTo)->Developer-(Contributes)->Repository){1,4}) AS p,
-    Developer                  AS d_mid,
-    BelongsTo                  AS bt_mid,
-    Repository                 AS r,
-    Contributes                AS c_mid
-WHERE o.org_id = 4
-ORDER BY path_length;
+-- Запрос 7: Полный граф связей
+PRINT '=== Запрос 7: Полный граф (разработчики, организации, репозитории) ===';
+SELECT 
+    d.login AS developer,
+    CONCAT('Developer ', d.dev_id) AS [Developer image],
+    o.org_name AS organization,
+    CONCAT('Organization ', o.org_id) AS [Organization image],
+    r.repo_name AS repository,
+    CONCAT('Repository ', r.repo_id) AS [Repository image],
+    b.role AS member_role,
+    ow.access_level AS org_ownership_level
+FROM Developer d, BelongsTo b, Organization o, Owns ow, Repository r
+WHERE MATCH(d-(b)->o-(ow)->r)
+ORDER BY o.org_name, d.login, r.repo_name;
+
+-- Разработчики и их вклад в репозитории
+SELECT 
+    d.dev_id AS IdDeveloper,
+    d.login AS Developer,
+    CONCAT('Developer ', d.dev_id) AS [Developer image name],
+    r.repo_id AS IdRepository,
+    r.repo_name AS Repository,
+    CONCAT('Repository ', r.repo_id) AS [Repository image name],
+    c.commits_count AS Commits,
+    c.lines_added AS [Lines Added],
+    c.role AS Role,
+    c.contribution_date AS [Contribution Date],
+    IIF(c.role = 'maintainer', 'Maintainer', 'Contributor') AS [Contributor Type]
+FROM Developer d, Contributes c, Repository r
+WHERE MATCH(d-(c)->r)
+ORDER BY c.commits_count DESC;
+
+-- Владельцы репозиториев (разработчики)
+SELECT 
+    d.dev_id AS IdOwner,
+    d.login AS OwnerName,
+    CONCAT('Developer ', d.dev_id) AS [Owner image name],
+    r.repo_id AS IdRepository,
+    r.repo_name AS Repository,
+    CONCAT('Repository ', r.repo_id) AS [Repository image name],
+    o.owned_since AS [Owned Since],
+    o.access_level AS [Access Level],
+    'Developer' AS [Owner Type]
+FROM Developer d, Owns o, Repository r
+WHERE MATCH(d-(o)->r)
+UNION ALL
+SELECT 
+    org.org_id AS IdOwner,
+    org.org_name AS OwnerName,
+    CONCAT('Organization ', org.org_id) AS [Owner image name],
+    r.repo_id AS IdRepository,
+    r.repo_name AS Repository,
+    CONCAT('Repository ', r.repo_id) AS [Repository image name],
+    o.owned_since AS [Owned Since],
+    o.access_level AS [Access Level],
+    'Organization' AS [Owner Type]
+FROM Organization org, Owns o, Repository r
+WHERE MATCH(org-(o)->r)
+
+ORDER BY [Owner Type], OwnerName;
+
+-- Членство разработчиков в организациях
+SELECT 
+    d.dev_id AS IdDeveloper,
+    d.login AS Developer,
+    CONCAT('Developer ', d.dev_id) AS [Developer image name],
+    o.org_id AS IdOrganization,
+    o.org_name AS Organization,
+    CONCAT('Organization ', o.org_id) AS [Organization image name],
+    b.join_date AS [Join Date],
+    b.role AS [Member Role],
+    b.is_public AS [Is Public],
+    IIF(b.is_public = 1, 'Public membership', 'Private membership') AS [Membership Type]
+FROM Developer d, BelongsTo b, Organization o
+WHERE MATCH(d-(b)->o)
+ORDER BY o.org_name, b.join_date;
+
+SELECT @@SERVERNAME
